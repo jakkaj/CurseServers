@@ -12,4 +12,4 @@ services:
       VERSION: 1.10.2
       CF_SERVER_MOD: modpacks/FarmingValleyServer_103.zip
     ports:
-      - 25565:25565
+      - 25500:25500

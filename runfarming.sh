@@ -1,0 +1,1 @@
+docker-compose -f ./FarmerValley/docker-compose.yaml up -d
