@@ -12,5 +12,6 @@ services:
       TYPE: CURSEFORGE
       VERSION: 1.10.2
       CF_SERVER_MOD: modpacks/FarmingValleyServer_103.zip
+      OPS: minejakkaj,jakpower
     ports:
       - 25500:25565
