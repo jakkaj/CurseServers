@@ -2,6 +2,7 @@ version: '3.8'
 
 services:
   mc:
+    restart: always
     image: itzg/minecraft-server:java8
     volumes:
     - ../modpacks:/data/modpacks:ro
@@ -12,4 +13,4 @@ services:
       VERSION: 1.10.2
       CF_SERVER_MOD: modpacks/FarmingValleyServer_103.zip
     ports:
-      - 25500:25500
+      - 25500:25565
