@@ -1,0 +1,1 @@
+This is the location you put the server zip files. Just drop the entire zip directly in here.
